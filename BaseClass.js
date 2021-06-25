@@ -10,6 +10,7 @@ class BaseClass{
         this.height = height;
         this.image = loadImage("sprites/base.png");
         World.add(world, this.body);
+        console.log(this.body);
       }
       display(){
         var angle = this.body.angle;
